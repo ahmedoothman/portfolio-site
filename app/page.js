@@ -3,9 +3,7 @@ import About from '@/components/about';
 import Education from '@/components/education/education';
 import Experiences from '@/components/experiences/experiences';
 import Header from '@/components/header';
-import Volunteering from '@/components/volunteering/volunteering';
 import Projects from '@/components/projects/projects';
-import Credits from '@/components/credits';
 import { promises as fs } from 'fs';
 
 export default async function Home() {
