@@ -32,11 +32,10 @@ const Navigation = () => {
       });
     };
   }, []);
-
   return (
     <div
       id='navigation'
-      className='flex flex-col py-10 font-medium tracking-widest'
+      className='flex flex-col py-3 font-medium tracking-widest'
     >
       <NavItem
         active={activeSection === 'about' ? true : false}
