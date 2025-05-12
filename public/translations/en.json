@@ -1,0 +1,125 @@
+{
+  "general": {
+    "name": "Ahmed Othman",
+    "headline": "Software Developer",
+    "profileImage": "/logos/profile.jpeg",
+    "about": [
+      "Hey there! 👋",
+      "Iam a software engineer with experience in full-stack development (MERN Stack, React Native)",
+      " seeking challenging opportunities to leverage my skills. Committed to delivering high-quality solutions and contributing to innovative projects. Passionate about continuous learning and growth in software engineering principles and technologies."
+    ],
+    "socials": {
+      "email": "ahmed.othman.ghazzawi@mail.com",
+      "resume": "https://drive.google.com/file/d/1AgnEqB9OvYbTDuPqOHpRFIDexmwuhgcC/view?usp=drive_link",
+      "linkedin": "https://www.linkedin.com/in/aothmang",
+      "github": "https://github.com/ahmedoothman",
+      "behance": "https://www.behance.net/ahmedoothman",
+      "whatsapp": "+201156864897"
+    }
+  },
+  "experiences": [
+    {
+      "title": "Software Developer",
+      "company": "Addicta",
+      "href": "https://www.linkedin.com/company/addicta",
+      "startDate": "01/2025",
+      "endDate": "CURRENT",
+      "description": "Joined the MERN stack team as a React Developer, building web applications and dashboards using React and Next.js, as well as developing mobile apps with React Native.",
+      "logo": "/logos/addicta_logo.jpeg",
+      "skills": [
+        "javascript",
+        "react",
+        "react native",
+        "next.js",
+        "redux",
+        "tailwind css",
+        "GraphQL",
+        "Apollo",
+        "Rest API",
+        "React Query",
+        "Material UI",
+        "Ant Design"
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Kaizech",
+      "href": "https://www.linkedin.com/company/kaizech-solutions",
+      "startDate": "05/2024",
+      "endDate": "02/2025",
+      "description": "As a Software Developer in an agile environment, I specialize in front-end development for web applications using React.js and Next.js, and mobile app development with React Native, delivering responsive and user-friendly interfaces",
+      "logo": "/logos/kaizech-logo.png",
+      "skills": [
+        "javascript",
+        "react",
+        "react native",
+        "next.js",
+        "zustand",
+        "tailwind css",
+        "Rest API",
+        "Ant Design"
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "CTC (Helwan University)",
+      "href": "https://www.linkedin.com/school/helwan-university",
+      "startDate": "07/2023",
+      "endDate": "12/2023",
+      "description": "Full Stack Web Developer (MERN) at Communication and Technology Center - Helwan University, Develope Web Application for The University",
+      "logo": "/logos/helwan-logo.jpeg",
+      "skills": [
+        "javascript",
+        "react",
+        "node.js",
+        "express.js",
+        "mongodb",
+        "tailwind css",
+        "Rest API"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "subject": "Computer Engineering",
+      "degree": "Bachelor's Degree",
+      "university": "Helwan University",
+      "href": "https://www.linkedin.com/school/helwan-university",
+      "startDate": "2018",
+      "endDate": "2023",
+      "description": "Grade: Very Good With Honor 81.27% | Graduation Project Grade : Excellent."
+    },
+    {
+      "subject": "Front End & Cross-Platform Development",
+      "degree": "Diploma",
+      "university": "Information Technology Institute (ITI)",
+      "href": "https://www.linkedin.com/school/information-technology-institute-iti-",
+      "startDate": "05-2024",
+      "endDate": "09-2024",
+      "description": "Front End & Cross Platform Mobile Development."
+    }
+  ],
+  "projects": [
+    {
+      "name": "two-column-portfolio",
+      "framework": "next.js",
+      "description": "A simple two-column portfolio template that is easy and quick to customize for your own purposes. Mobile friendly.",
+      "href": "https://github.com/karlgrossmann/two-column-portfolio",
+      "stars": "0"
+    },
+    {
+      "name": "example-project",
+      "framework": "javascript",
+      "description": "Short description of your project.",
+      "href": "",
+      "stars": "2,712"
+    },
+    {
+      "name": "example-project-2",
+      "framework": "flutter",
+      "description": "Short description of your project.",
+      "href": "",
+      "stars": "1,999"
+    }
+  ]
+}
