@@ -101,13 +101,13 @@
   ],
   "projects": [
     {
-      "id": "InCompass",
-      "name": "Incompass",
+      "id": "marinoz",
+      "name": "Marinoz",
       "framework": "react native",
-      "shortDescription": "Your Gateway to Real Estate Wisdom: Explore, Compare, and Secure Quotes Online",
-      "mainImage": "/projects/incompass/card-image.png",
-      "technologies": ["React", "React Native", "Redux"],
-      "liveUrl": "https://incompassonline.com/",
+      "shortDescription": "Best Yacht Experience for you",
+      "mainImage": "/projects/marinoz/card-image.png",
+      "technologies": ["React", "Tailwind CSS", "React Native", "Redux"],
+      "liveUrl": "https://marinoz-web.addictaco.website/en",
       "stars": "0"
     },
     {
@@ -121,12 +121,23 @@
       "stars": "0"
     },
     {
+      "id": "InCompass",
+      "name": "Incompass",
+      "framework": "react native",
+      "shortDescription": "Your Gateway to Real Estate Wisdom: Explore, Compare, and Secure Quotes Online",
+      "mainImage": "/projects/incompass/card-image.png",
+      "technologies": ["React", "React Native", "Redux"],
+      "liveUrl": "https://incompassonline.com/",
+      "stars": "0"
+    },
+    {
       "id": "medan-global",
       "name": "Medan Global",
-      "framework": "react",
-      "shortDescription": "Horses Competetion Management System.",
+      "framework": "next.js",
+      "shortDescription": "Horses Competition Management System.",
       "mainImage": "/projects/medan-global/card-image.png",
       "technologies": [
+        "Next.js",
         "React",
         "Tailwind CSS",
         "Ant Design",
