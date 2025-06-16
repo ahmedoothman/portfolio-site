@@ -7,6 +7,9 @@ This is a personal portfolio website built with Next.js, React, and Tailwind CSS
 - Responsive design that works across all devices
 - Modern and clean UI/UX
 - Dynamic sections for about, experiences, projects, education, and volunteering
+- **Enhanced Projects Section** with image cards and detailed project pages
+- **Project Detail Pages** with comprehensive information, technologies, and links
+- **Multiple Link Types** - GitHub, live demos, app stores, and desktop releases
 - Multi-language support
 - Downloadable resume
 - Social media integration
@@ -23,6 +26,7 @@ This is a personal portfolio website built with Next.js, React, and Tailwind CSS
 
 ```
 ├── app/               # Next.js app router pages
+│   ├── projects/[id]/ # Dynamic project detail pages
 ├── components/        # Reusable UI components
 │   ├── education/     # Education section components
 │   ├── experiences/   # Experience section components
@@ -30,8 +34,53 @@ This is a personal portfolio website built with Next.js, React, and Tailwind CSS
 │   └── volunteering/  # Volunteering section components
 ├── public/            # Static assets
 │   ├── logos/         # Logo images
+│   ├── projects/      # Project images and assets
 │   ├── resume/        # Downloadable resume files
 │   └── translations/  # Language translation files
+```
+
+## Enhanced Projects Features
+
+### Project Cards
+
+- Display main project images
+- Show project framework/technology
+- Star rating display
+- Responsive grid layout
+- Hover effects and animations
+
+### Project Detail Pages
+
+- Comprehensive project descriptions
+- Technology stack visualization
+- Multiple action buttons:
+  - GitHub repository links
+  - Live demo links
+  - Google Play Store links (for mobile apps)
+  - App Store links (for mobile apps)
+  - GitHub releases (for desktop apps)
+- Project images with fallback placeholders
+
+### Project Data Structure
+
+Each project in the translations file supports:
+
+```json
+{
+  "id": "unique-project-id",
+  "name": "Project Name",
+  "framework": "technology",
+  "shortDescription": "Brief description for cards",
+  "description": "Detailed project description",
+  "mainImage": "/projects/image.jpg",
+  "technologies": ["Tech1", "Tech2"],
+  "githubUrl": "GitHub repository URL",
+  "liveUrl": "Live demo URL",
+  "playStoreUrl": "Google Play Store URL",
+  "appStoreUrl": "Apple App Store URL",
+  "githubReleasesUrl": "GitHub releases URL",
+  "stars": "star count"
+}
 ```
 
 ## Getting Started
