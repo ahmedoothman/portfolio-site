@@ -4,6 +4,7 @@ import Education from '@/components/education/education';
 import Experiences from '@/components/experiences/experiences';
 import Header from '@/components/header';
 import Projects from '@/components/projects/projects';
+import Credits from '@/components/credits';
 import { promises as fs } from 'fs';
 
 export default async function Home() {
@@ -22,6 +23,7 @@ export default async function Home() {
           <Experiences data={data.experiences}></Experiences>
           <Education data={data.education}></Education>
           <Projects data={data.projects}></Projects>
+          <Credits data={data.general}></Credits>
         </div>
       </div>
     </main>
