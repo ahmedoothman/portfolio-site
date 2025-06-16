@@ -99,68 +99,111 @@
       "description": "Front End & Cross Platform Mobile Development."
     }
   ],
-  "projects": [    {
-      "id": "two-column-portfolio",
-      "name": "Two Column Portfolio",
-      "framework": "next.js",
-      "shortDescription": "A simple two-column portfolio template that is easy and quick to customize for your own purposes. Mobile friendly.",
-      "description": "A modern, responsive portfolio template built with Next.js and Tailwind CSS. Features a clean two-column layout, mobile-friendly design, and easy customization options. Perfect for developers, designers, and professionals looking to showcase their work.",
-      "mainImage": "/projects/portfolio-placeholder.svg",
-      "technologies": ["Next.js", "React", "Tailwind CSS", "JavaScript"],
-      "githubUrl": "https://github.com/karlgrossmann/two-column-portfolio",
-      "liveUrl": "https://two-column-portfolio.vercel.app",
-      "behanceUrl": "https://www.behance.net/gallery/portfolio-design",
-      "stars": "0"
-    },    {
-      "id": "ecommerce-app",
-      "name": "E-Commerce Mobile App",
+  "projects": [
+    {
+      "id": "InCompass",
+      "name": "Incompass",
       "framework": "react native",
-      "shortDescription": "Cross-platform e-commerce application with modern UI and seamless shopping experience.",
-      "description": "A full-featured e-commerce mobile application built with React Native. Includes user authentication, product catalog, shopping cart, payment integration, and order management. Features smooth animations, offline support, and push notifications.",
-      "mainImage": "/projects/ecommerce-placeholder.svg",
+      "shortDescription": "Your Gateway to Real Estate Wisdom: Explore, Compare, and Secure Quotes Online",
+      "mainImage": "/projects/incompass/card-image.png",
+      "technologies": ["React", "React Native", "Redux"],
+      "liveUrl": "https://incompassonline.com/",
+      "stars": "0"
+    },
+    {
+      "id": "bask",
+      "name": "Bask Hospitality",
+      "framework": "react native",
+      "shortDescription": "Bask Hospitality is a comprehensive hotel management system designed to streamline operations and enhance guest experiences.",
+      "mainImage": "/projects/bask/card-image.png",
+      "technologies": ["React", "Tailwind CSS", "React Native", "Redux"],
+      "liveUrl": "https://baskeg.com/",
+      "stars": "0"
+    },
+    {
+      "id": "medan-global",
+      "name": "Medan Global",
+      "framework": "react",
+      "shortDescription": "Horses Competetion Management System.",
+      "mainImage": "/projects/medan-global/card-image.png",
       "technologies": [
-        "React Native",
-        "Redux",
-        "Firebase",
-        "Stripe API",
-        "Expo"
+        "React",
+        "Tailwind CSS",
+        "Ant Design",
+        "TypeScript",
+        "Zustand"
       ],
-      "githubUrl": "https://github.com/username/ecommerce-app",
-      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.example.ecommerce",
-      "appStoreUrl": "https://apps.apple.com/app/ecommerce-app/id123456789",
-      "behanceUrl": "https://www.behance.net/gallery/ecommerce-app-design",
-      "stars": "2,712"
-    },    {
-      "id": "task-manager-desktop",
-      "name": "Task Manager Desktop",
-      "framework": "electron",
-      "shortDescription": "Cross-platform desktop task management application with advanced features.",
-      "description": "A powerful desktop task manager built with Electron and React. Features include project organization, time tracking, team collaboration, and advanced reporting. Supports Windows, macOS, and Linux with native system integration.",
-      "mainImage": "/projects/taskmanager-placeholder.svg",
-      "technologies": ["Electron", "React", "Node.js", "SQLite", "TypeScript"],
-      "githubUrl": "https://github.com/username/task-manager",
-      "liveUrl": "https://taskmanager.app",
-      "githubReleasesUrl": "https://github.com/username/task-manager/releases",
-      "behanceUrl": "https://www.behance.net/gallery/task-manager-ui-design",
-      "stars": "1,999"
-    },    {
-      "id": "weather-dashboard",
-      "name": "Weather Dashboard",
-      "framework": "vue.js",
-      "shortDescription": "Interactive weather dashboard with real-time data and beautiful visualizations.",
-      "description": "A comprehensive weather dashboard application providing real-time weather data, forecasts, and interactive maps. Features include location search, weather alerts, historical data analysis, and customizable widgets.",
-      "mainImage": "/projects/weather-placeholder.svg",
+      "liveUrl": "medanglobal.com",
+      "testUrl": "https://release-dev.d1atoojhtka94o.amplifyapp.com",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.horse_riding",
+      "appStoreUrl": "https://apps.apple.com/eg/app/medan-%D9%85%D9%8A%D8%AF%D8%A7%D9%86/id6738380859",
+      "user": "admin@example.com",
+      "password": "Master@123",
+      "stars": "0"
+    },
+    {
+      "id": "helwan-university-ebook-platform",
+      "name": "Helwan University: eBook platform ",
+      "framework": "react",
+      "shortDescription": "This is an eBook application designed for comprehensive use across the entire university.",
+      "mainImage": "/projects/ebook-platform/card-image.png",
       "technologies": [
-        "Vue.js",
-        "Chart.js",
-        "OpenWeather API",
-        "Mapbox",
-        "SCSS"
+        "React",
+        "Tailwind CSS",
+        "JavaScript",
+        "Node.js",
+        "MongoDB"
       ],
-      "githubUrl": "https://github.com/username/weather-dashboard",
-      "liveUrl": "https://weather-dashboard.netlify.app",
-      "behanceUrl": "https://www.behance.net/gallery/weather-dashboard-design",
-      "stars": "856"
+      "behanceUrl": "https://www.behance.net/gallery/182499265/eBook-Platform",
+      "stars": "0"
+    },
+    {
+      "id": "helwan-university-student-admission",
+      "name": "Helwan University: Student Admission",
+      "framework": "react",
+      "shortDescription": "This application is designed for new students to complete their university admission information, accommodating over 35,000 users.",
+      "mainImage": "/projects/student-app/card-image.png",
+      "technologies": [
+        "React",
+        "Tailwind CSS",
+        "JavaScript",
+        "Node.js",
+        "MongoDB"
+      ],
+      "behanceUrl": "https://www.behance.net/gallery/180429899/Student-Admission-App",
+      "stars": "0"
+    },
+    {
+      "id": "helwan-university-student-interview",
+      "name": "Helwan University: Student Interview",
+      "framework": "react",
+      "shortDescription": "This app is primarily used for scheduling interview appointments and gathering student data for admission purposes.",
+      "mainImage": "/projects/interview-app/card-image.png",
+      "technologies": [
+        "React",
+        "Tailwind CSS",
+        "JavaScript",
+        "Node.js",
+        "MongoDB"
+      ],
+      "behanceUrl": "https://www.behance.net/gallery/180436467/personal-exam-app",
+      "stars": "0"
+    },
+    {
+      "id": "helwan-university-student-id-card",
+      "name": "Helwan University: Student ID Card Dashboard",
+      "framework": "react",
+      "shortDescription": "This application allows staff to see the students and their data submitted to print student id cards.",
+      "mainImage": "/projects/student-id-card/card-image.png",
+      "technologies": [
+        "React",
+        "Tailwind CSS",
+        "JavaScript",
+        "Node.js",
+        "MongoDB"
+      ],
+      "behanceUrl": "https://www.behance.net/gallery/180429899/Student-Admission-App",
+      "stars": "0"
     }
   ]
 }

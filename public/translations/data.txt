@@ -1,0 +1,53 @@
+ {
+      "id": "ecommerce-app",
+      "name": "E-Commerce Mobile App",
+      "framework": "react native",
+      "shortDescription": "Cross-platform e-commerce application with modern UI and seamless shopping experience.",
+      "description": "A full-featured e-commerce mobile application built with React Native. Includes user authentication, product catalog, shopping cart, payment integration, and order management. Features smooth animations, offline support, and push notifications.",
+      "mainImage": "/projects/ecommerce-placeholder.svg",
+      "technologies": [
+        "React Native",
+        "Redux",
+        "Firebase",
+        "Stripe API",
+        "Expo"
+      ],
+      "githubUrl": "https://github.com/username/ecommerce-app",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.example.ecommerce",
+      "appStoreUrl": "https://apps.apple.com/app/ecommerce-app/id123456789",
+      "behanceUrl": "https://www.behance.net/gallery/ecommerce-app-design",
+      "stars": "2,712"
+    },
+    {
+      "id": "task-manager-desktop",
+      "name": "Task Manager Desktop",
+      "framework": "electron",
+      "shortDescription": "Cross-platform desktop task management application with advanced features.",
+      "description": "A powerful desktop task manager built with Electron and React. Features include project organization, time tracking, team collaboration, and advanced reporting. Supports Windows, macOS, and Linux with native system integration.",
+      "mainImage": "/projects/taskmanager-placeholder.svg",
+      "technologies": ["Electron", "React", "Node.js", "SQLite", "TypeScript"],
+      "githubUrl": "https://github.com/username/task-manager",
+      "liveUrl": "https://taskmanager.app",
+      "githubReleasesUrl": "https://github.com/username/task-manager/releases",
+      "behanceUrl": "https://www.behance.net/gallery/task-manager-ui-design",
+      "stars": "1,999"
+    },
+    {
+      "id": "weather-dashboard",
+      "name": "Weather Dashboard",
+      "framework": "vue.js",
+      "shortDescription": "Interactive weather dashboard with real-time data and beautiful visualizations.",
+      "description": "A comprehensive weather dashboard application providing real-time weather data, forecasts, and interactive maps. Features include location search, weather alerts, historical data analysis, and customizable widgets.",
+      "mainImage": "/projects/weather-placeholder.svg",
+      "technologies": [
+        "Vue.js",
+        "Chart.js",
+        "OpenWeather API",
+        "Mapbox",
+        "SCSS"
+      ],
+      "githubUrl": "https://github.com/username/weather-dashboard",
+      "liveUrl": "https://weather-dashboard.netlify.app",
+      "behanceUrl": "https://www.behance.net/gallery/weather-dashboard-design",
+      "stars": "856"
+    }

@@ -105,9 +105,7 @@ export default async function ProjectDetail({ params }) {
             <h2 className='text-2xl font-bold mb-4'>About This Project</h2>
             <p className='text-surface-600 leading-relaxed mb-6'>
               {project.description}
-            </p>
-
-            {/* Technologies */}
+            </p>            {/* Technologies */}
             <h3 className='text-xl font-bold mb-4'>Technologies Used</h3>
             <div className='flex flex-wrap gap-2 mb-6'>
               {project.technologies.map((tech, index) => (
@@ -119,6 +117,27 @@ export default async function ProjectDetail({ params }) {
                 </span>
               ))}
             </div>
+
+            {/* Test Credentials */}
+            {project.testUrl && (project.user || project.password) && (
+              <div className='bg-orange-50 border border-orange-200 rounded-lg p-4 mb-6'>
+                <h3 className='text-lg font-bold mb-2 text-orange-800'>Test Credentials</h3>
+                <div className='text-orange-700 text-sm space-y-1'>
+                  {project.user && (
+                    <div>
+                      <span className='font-medium'>Username:</span> 
+                      <code className='ml-2 bg-orange-100 px-2 py-1 rounded'>{project.user}</code>
+                    </div>
+                  )}
+                  {project.password && (
+                    <div>
+                      <span className='font-medium'>Password:</span> 
+                      <code className='ml-2 bg-orange-100 px-2 py-1 rounded'>{project.password}</code>
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
           </div>
 
           {/* Action Buttons */}
@@ -141,8 +160,7 @@ export default async function ProjectDetail({ params }) {
                   </svg>
                   View on GitHub
                 </a>
-              )}
-              {project.liveUrl && (
+              )}              {project.liveUrl && (
                 <a
                   href={project.liveUrl}
                   target='_blank'
@@ -163,6 +181,31 @@ export default async function ProjectDetail({ params }) {
                     />
                   </svg>
                   Live Demo
+                </a>
+              )}
+
+              {project.testUrl && (
+                <a
+                  href={project.testUrl}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='transition-all bg-orange-500 hover:bg-orange-400 text-white py-3 px-4 rounded flex items-center'
+                  title={project.user && project.password ? `Test credentials: ${project.user} / ${project.password}` : 'Test version'}
+                >
+                  <svg
+                    className='w-5 h-5 mr-2'
+                    fill='none'
+                    stroke='currentColor'
+                    viewBox='0 0 24 24'
+                  >
+                    <path
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      strokeWidth='2'
+                      d='M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z'
+                    />
+                  </svg>
+                  Test Demo
                 </a>
               )}
               {project.playStoreUrl && (
