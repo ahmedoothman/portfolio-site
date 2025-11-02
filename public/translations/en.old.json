@@ -59,6 +59,24 @@
         "Rest API",
         "Ant Design"
       ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "CTC (Helwan University)",
+      "href": "https://www.linkedin.com/school/helwan-university",
+      "startDate": "07/2023",
+      "endDate": "12/2023",
+      "description": "Full Stack Web Developer (MERN) at Communication and Technology Center - Helwan University, Develope Web Application for The University",
+      "logo": "/logos/helwan-logo.jpeg",
+      "skills": [
+        "javascript",
+        "react",
+        "node.js",
+        "express.js",
+        "mongodb",
+        "tailwind css",
+        "Rest API"
+      ]
     }
   ],
   "education": [
