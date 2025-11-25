@@ -89,7 +89,7 @@
       "shortDescription": "Best Yacht Experience for you",
       "mainImage": "/projects/marinoz/card-image.png",
       "technologies": ["React", "Tailwind CSS", "React Native", "Redux"],
-      "liveUrl": "https://marinoz-web.addictaco.website/en",
+      "liveUrl": "https://beta.marinoz.com/en",
       "stars": "0"
     },
     {
