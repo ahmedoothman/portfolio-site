@@ -78,6 +78,7 @@
       "name": "Marinoz",
       "framework": "react native",
       "shortDescription": "Best Yacht Experience for you",
+      "description": "Marinoz is a multi-platform service marketplace that includes a website, an owner dashboard, a user dashboard, and two mobile applications built with React Native (Owner App and User App).The platform allows service owners to create and manage marine and tourism-related services, while users can explore and book services such as yacht rentals, tours, events, water sports, accommodations, and custom experiences. Marinoz also offers e-commerce features, special packages, an in-app wallet, and a complaint/support system.The goal of the platform is to provide a complete, seamless experience for managing services and bookings across web and mobile.",
       "mainImage": "/projects/marinoz/card-image.png",
       "technologies": ["React", "Tailwind CSS", "React Native", "Redux"],
       "liveUrl": "https://beta.marinoz.com/en",
@@ -88,6 +89,7 @@
       "name": "Bask Hospitality",
       "framework": "react native",
       "shortDescription": "Bask Hospitality is a comprehensive hotel management system designed to streamline operations and enhance guest experiences.",
+      "description": "",
       "mainImage": "/projects/bask/card-image.png",
       "technologies": ["React", "Tailwind CSS", "React Native", "Redux"],
       "liveUrl": "https://baskeg.com/",
@@ -98,6 +100,7 @@
       "name": "Incompass",
       "framework": "react native",
       "shortDescription": "Your Gateway to Real Estate Wisdom: Explore, Compare, and Secure Quotes Online",
+      "description": "",
       "mainImage": "/projects/incompass/card-image.png",
       "technologies": ["React", "React Native", "Redux"],
       "liveUrl": "https://incompassonline.com/",
@@ -108,6 +111,7 @@
       "id": "medan-global",
       "name": "Medan Global",
       "framework": "next.js",
+      "description": "",
       "shortDescription": "Horses Competition Management System.",
       "mainImage": "/projects/medan-global/card-image.png",
       "technologies": [
@@ -130,6 +134,7 @@
       "id": "helwan-university-ebook-platform",
       "name": "Helwan University: eBook platform ",
       "framework": "react",
+      "description": "",
       "shortDescription": "This is an eBook application designed for comprehensive use across the entire university.",
       "mainImage": "/projects/ebook-platform/card-image.png",
       "technologies": [
@@ -145,6 +150,7 @@
     {
       "id": "helwan-university-student-admission",
       "name": "Helwan University: Student Admission",
+      "description": "",
       "framework": "react",
       "shortDescription": "This application is designed for new students to complete their university admission information, accommodating over 35,000 users.",
       "mainImage": "/projects/student-app/card-image.png",
@@ -161,6 +167,7 @@
     {
       "id": "helwan-university-student-interview",
       "name": "Helwan University: Student Interview",
+      "description": "",
       "framework": "react",
       "shortDescription": "This app is primarily used for scheduling interview appointments and gathering student data for admission purposes.",
       "mainImage": "/projects/interview-app/card-image.png",
@@ -176,6 +183,7 @@
     },
     {
       "id": "helwan-university-student-id-card",
+      "description": "",
       "name": "Helwan University: Student ID Card Dashboard",
       "framework": "react",
       "shortDescription": "This application allows staff to see the students and their data submitted to print student id cards.",

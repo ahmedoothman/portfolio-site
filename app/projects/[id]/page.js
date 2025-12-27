@@ -102,10 +102,15 @@ export default async function ProjectDetail({ params }) {
         <div className='grid grid-cols-1 lg:grid-cols-3 gap-8'>
           {/* Description */}
           <div className='lg:col-span-2'>
-            <h2 className='text-2xl font-bold mb-4'>About This Project</h2>
-            <p className='text-surface-600 leading-relaxed mb-6'>
-              {project.description}
-            </p>{' '}
+            {project.description.trim() !== '' && (
+              <>
+                <h2 className='text-2xl font-bold mb-4'>About This Project</h2>
+                <p className='text-surface-600 leading-relaxed mb-6'>
+                  {project.description}
+                </p>
+              </>
+            )}
+
             {/* Technologies */}
             <h3 className='text-xl font-bold mb-4'>Technologies Used</h3>
             <div className='flex flex-wrap gap-2 mb-6'>
