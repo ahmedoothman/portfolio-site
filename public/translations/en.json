@@ -108,8 +108,8 @@
       "id": "bask",
       "name": "Bask Hospitality",
       "framework": "react native",
-      "shortDescription": "Bask Hospitality is a comprehensive hotel management system designed to streamline operations and enhance guest experiences.",
-      "description": "",
+      "shortDescription": "Bask is a comprehensive vacation rental platform connecting property owners with travelers seeking seaside accommodations.",
+      "description": "Bask is a multi-platform vacation rental marketplace that specializes in seaside properties for summer vacations. Property owners can list their units through an intuitive owner dashboard, where they submit detailed property information and amenities. The admin dashboard allows administrators to review and approve property listings before they become visible on the platform. Users can explore available properties through a responsive website and mobile application, utilizing advanced filtering options to find their perfect vacation spot. The platform includes comprehensive booking management, secure payment processing with multiple payment methods, user profile management, FAQ sections, push notifications, admin chat support, refund request handling, and account management features. The system ensures a seamless experience across web and mobile platforms for both property owners and vacation seekers.",
       "mainImage": "/projects/bask/card-image.png",
       "technologies": ["React", "Tailwind CSS", "React Native", "Redux"],
       "liveUrl": "https://baskeg.com/",
@@ -117,12 +117,33 @@
       "mobileApps": [
         {
           "name": "Mobile App",
-          "description": "Hotel management mobile application for guests and staff.",
+          "description": "User-friendly mobile application for travelers to discover, filter, and book seaside vacation rentals with integrated payment processing, profile management, notifications, and support features.",
           "apkUrl": "https://drive.google.com/drive/folders/1DJqRh_Fnm7yzey5eWEq_VOEB9IasBwXj?usp=drive_link",
           "playStoreUrl": "",
           "appStoreUrl": "",
           "demoVideoUrl": "https://drive.google.com/file/d/1LKF3IZLMAtqiQMB35L6JZqFwQbAd2SPc/view?usp=drive_link",
-          "screenshots": []
+          "screenshots": "https://drive.google.com/drive/u/1/folders/1blbrt8R0HrBvlJ7OUMAl5FjSo_qXKhDv"
+        }
+      ]
+    },
+    {
+      "id": "wasel",
+      "name": "Wasel",
+      "framework": "react native",
+      "shortDescription": "Wasel is a delivery platform connecting shippers with drivers for seamless shipment transportation.",
+      "description": "Wasel is a mobile-only delivery platform that connects individuals needing to ship packages with available drivers. The app features two distinct user flows: one for shippers who create delivery requests by listing their shipments with pickup and delivery details, and another for drivers who browse available requests and accept deliveries they can fulfill. Key features include user/driver role switching, comprehensive dashboards for tracking shipments and earnings, profile management, driver rating and review system, secure account deletion, and real-time notifications. The platform ensures efficient logistics coordination between shippers and drivers through a streamlined mobile interface.",
+      "mainImage": "/projects/wasel/card-image.png",
+      "technologies": ["React Native", "Redux"],
+      "stars": "0",
+      "mobileApps": [
+        {
+          "name": "Mobile App",
+          "description": "Dual-flow mobile application for shippers to post delivery requests and drivers to accept and complete shipments, with role switching, profile management, and rating features.",
+          "apkUrl": "https://drive.google.com/drive/folders/1XcBqe1nLKoyTLq6tDTh7erGWB1sT7Izj?usp=drive_link",
+          "playStoreUrl": "",
+          "appStoreUrl": "",
+          "demoVideoUrl": "https://drive.google.com/file/d/1gd5CzBctpW5rDbemeGbKnfRMhfUj35mZ/view?usp=drive_link",
+          "screenshots": "https://drive.google.com/drive/folders/1YsnfJz4thF4cvc1qcf1F5owADSQfhKjy?usp=drive_link"
         }
       ]
     },
@@ -130,8 +151,8 @@
       "id": "InCompass",
       "name": "Incompass",
       "framework": "react native",
-      "shortDescription": "Your Gateway to Real Estate Wisdom: Explore, Compare, and Secure Quotes Online",
-      "description": "",
+      "shortDescription": "InCompass is a real estate platform where organizations showcase and market new property developments in Egypt.",
+      "description": "InCompass is a comprehensive real estate platform designed for property developers and organizations to showcase their new construction projects across Egypt. The platform allows organizations to list detailed information about their property units, including specifications, pricing, locations, and project timelines. Users can browse through various new developments, compare different properties, and request quotes directly from developers. The platform serves as a bridge between property developers and potential buyers, providing a streamlined way to discover and inquire about new construction projects in the Egyptian real estate market.",
       "mainImage": "/projects/incompass/card-image.png",
       "technologies": ["React", "React Native", "Redux"],
       "liveUrl": "https://incompassonline.com/",
@@ -142,8 +163,8 @@
       "id": "medan-global",
       "name": "Medan Global",
       "framework": "next.js",
-      "description": "",
-      "shortDescription": "Horses Competition Management System.",
+      "description": "Medan Global is a comprehensive equestrian competition management platform based in Saudi Arabia, designed to organize and manage various horse-related events and competitions. The platform includes both a web dashboard for administrators and a mobile application for participants and staff. It handles multiple types of competitions including horse racing, beauty competitions, auctions, and various equestrian events. The system provides complete staff management capabilities for photographers, horse riders, judges, and other event personnel. Features include event scheduling, participant registration, competition tracking, results management, and comprehensive reporting tools to ensure smooth execution of all equestrian activities.",
+      "shortDescription": "Medan Global is a comprehensive platform for organizing and managing horse competitions, events, and auctions in Saudi Arabia.",
       "mainImage": "/projects/medan-global/card-image.png",
       "technologies": [
         "Next.js",
@@ -165,8 +186,8 @@
       "id": "helwan-university-ebook-platform",
       "name": "Helwan University: eBook platform ",
       "framework": "react",
-      "description": "",
-      "shortDescription": "This is an eBook application designed for comprehensive use across the entire university.",
+      "description": "The Helwan University eBook platform is a comprehensive digital learning resource system designed to serve the entire university community. The platform accommodates five distinct user roles: students, professors, publishing authority, college administrators, and super administrators. Students can access and view course materials and eBooks. Professors have the ability to upload educational content and materials. The publishing authority reviews and approves content submissions. College administrators oversee departmental content management, while super administrators have full system control over all platform operations. The approval workflow ensures content quality through multi-level review processes before materials are published to students, creating a structured and secure academic resource distribution system.",
+      "shortDescription": "Comprehensive eBook platform for Helwan University serving students, professors, and administrators with multi-role content management and approval workflows.",
       "mainImage": "/projects/ebook-platform/card-image.png",
       "technologies": [
         "React",
@@ -181,9 +202,9 @@
     {
       "id": "helwan-university-student-admission",
       "name": "Helwan University: Student Admission",
-      "description": "",
+      "description": "The Helwan University Student Admission application is a comprehensive digital admission system designed to streamline the enrollment process for new students, successfully accommodating over 35,000 users. For students, the platform provides essential features including downloading the student charter, taking admission quizzes, completing personal and academic information, and automatically generating printable admission papers pre-filled with their submitted data. Administrative users have access to powerful management tools, allowing admins and super admins to view student data organized by faculty and download comprehensive reports. The system ensures efficient data collection, verification, and management throughout the admission workflow, supporting the university's large-scale enrollment process with a user-friendly interface and robust administrative controls.",
       "framework": "react",
-      "shortDescription": "This application is designed for new students to complete their university admission information, accommodating over 35,000 users.",
+      "shortDescription": "Comprehensive student admission system for Helwan University handling enrollment for over 35,000 students with automated document generation and administrative reporting.",
       "mainImage": "/projects/student-app/card-image.png",
       "technologies": [
         "React",
@@ -198,9 +219,9 @@
     {
       "id": "helwan-university-student-interview",
       "name": "Helwan University: Student Interview",
-      "description": "",
+      "description": "The Helwan University Student Interview application is designed to streamline the interview scheduling process for university admissions. Students can register their personal and academic data through the platform and schedule interview appointments at their convenience. Administrators have comprehensive control over the interview process, including the ability to schedule and organize student interviews efficiently. The system also provides administrative tools for downloading student data for review and record-keeping purposes. This application serves as a crucial component of the university's admission workflow, ensuring organized data collection and efficient interview management for prospective students.",
       "framework": "react",
-      "shortDescription": "This app is primarily used for scheduling interview appointments and gathering student data for admission purposes.",
+      "shortDescription": "Interview scheduling and data collection system for Helwan University admissions, enabling students to register and book appointments while providing admins with scheduling and data management tools.",
       "mainImage": "/projects/interview-app/card-image.png",
       "technologies": [
         "React",
@@ -214,10 +235,10 @@
     },
     {
       "id": "helwan-university-student-id-card",
-      "description": "",
+      "description": "The Helwan University Student ID Card Dashboard is a comprehensive system for managing student identification cards. Students can update their personal information and upload profile pictures through an intuitive interface. Administrators review submitted images and information to ensure compliance with university standards before approving them for ID card printing. The dashboard provides staff with tools to view all student submissions, verify data accuracy, and manage the approval workflow. Once approved, the system facilitates the printing process by providing access to verified student data and images, ensuring efficient production of official university ID cards.",
       "name": "Helwan University: Student ID Card Dashboard",
       "framework": "react",
-      "shortDescription": "This application allows staff to see the students and their data submitted to print student id cards.",
+      "shortDescription": "Student ID card management system allowing students to update information and upload photos, with administrative approval workflow for printing official university ID cards.",
       "mainImage": "/projects/student-id-card/card-image.png",
       "technologies": [
         "React",
@@ -227,6 +248,17 @@
         "MongoDB"
       ],
       "behanceUrl": "https://www.behance.net/gallery/180429899/Student-Admission-App",
+      "stars": "0"
+    },
+    {
+      "id": "sleep-of-woodlands",
+      "name": "Sleep of Woodlands",
+      "framework": "html/css/javascript",
+      "shortDescription": "Professional website for Sleep of Woodlands clinic providing sleep disorder treatment services in the USA.",
+      "description": "Sleep of Woodlands is a professional website for a medical clinic specializing in sleep disorders and treatment services located in the United States. The website serves as an informational hub for patients seeking sleep-related healthcare services, providing details about the clinic's services, treatments, and contact information.",
+      "mainImage": "/projects/sleep-of-woodlands/card-image.png",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "liveUrl": "https://ahmedoothman.github.io/Sleepofwood/index.html",
       "stars": "0"
     }
   ]

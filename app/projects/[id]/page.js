@@ -276,31 +276,62 @@ export default async function ProjectDetail({ params }) {
                       </div>
 
                       {/* Screenshots Gallery */}
-                      {app.screenshots && app.screenshots.length > 0 && (
-                        <div>
-                          <h5 className='text-sm font-medium mb-2 text-surface-600'>
-                            Screenshots
-                          </h5>
-                          <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2'>
-                            {app.screenshots.map((screenshot, ssIndex) => (
+                      {app.screenshots && (
+                        <>
+                          {Array.isArray(app.screenshots) &&
+                          app.screenshots.length > 0 ? (
+                            <div>
+                              <h5 className='text-sm font-medium mb-2 text-surface-600'>
+                                Screenshots
+                              </h5>
+                              <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2'>
+                                {app.screenshots.map((screenshot, ssIndex) => (
+                                  <a
+                                    key={ssIndex}
+                                    href={screenshot}
+                                    target='_blank'
+                                    rel='noopener noreferrer'
+                                    className='relative aspect-[9/16] rounded-lg overflow-hidden bg-surface-400 hover:opacity-80 transition-opacity'
+                                  >
+                                    <Image
+                                      src={screenshot}
+                                      alt={`${app.name} screenshot ${
+                                        ssIndex + 1
+                                      }`}
+                                      fill
+                                      className='object-cover'
+                                      sizes='(max-width: 640px) 50vw, (max-width: 768px) 33vw, 25vw'
+                                    />
+                                  </a>
+                                ))}
+                              </div>
+                            </div>
+                          ) : (
+                            typeof app.screenshots === 'string' && (
                               <a
-                                key={ssIndex}
-                                href={screenshot}
+                                href={app.screenshots}
                                 target='_blank'
                                 rel='noopener noreferrer'
-                                className='relative aspect-[9/16] rounded-lg overflow-hidden bg-surface-400 hover:opacity-80 transition-opacity'
+                                className='transition-all bg-purple-600 hover:bg-purple-500 text-white py-2 px-3 rounded text-sm flex items-center w-fit'
                               >
-                                <Image
-                                  src={screenshot}
-                                  alt={`${app.name} screenshot ${ssIndex + 1}`}
-                                  fill
-                                  className='object-cover'
-                                  sizes='(max-width: 640px) 50vw, (max-width: 768px) 33vw, 25vw'
-                                />
+                                <svg
+                                  className='w-4 h-4 mr-1'
+                                  fill='none'
+                                  stroke='currentColor'
+                                  viewBox='0 0 24 24'
+                                >
+                                  <path
+                                    strokeLinecap='round'
+                                    strokeLinejoin='round'
+                                    strokeWidth='2'
+                                    d='M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z'
+                                  />
+                                </svg>
+                                Screenshots
                               </a>
-                            ))}
-                          </div>
-                        </div>
+                            )
+                          )}
+                        </>
                       )}
                     </div>
                   ))}
