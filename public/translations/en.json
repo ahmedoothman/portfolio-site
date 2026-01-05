@@ -82,7 +82,27 @@
       "mainImage": "/projects/marinoz/card-image.png",
       "technologies": ["React", "Tailwind CSS", "React Native", "Redux"],
       "liveUrl": "https://beta.marinoz.com/en",
-      "stars": "0"
+      "stars": "0",
+      "mobileApps": [
+        {
+          "name": "User App",
+          "description": "For users to explore and book marine services, yacht rentals, and tourism experiences.",
+          "apkUrl": "",
+          "playStoreUrl": "",
+          "appStoreUrl": "",
+          "demoVideoUrl": "",
+          "screenshots": []
+        },
+        {
+          "name": "Owner App",
+          "description": "For service owners to manage their offerings, bookings, and business operations.",
+          "apkUrl": "",
+          "playStoreUrl": "",
+          "appStoreUrl": "",
+          "demoVideoUrl": "",
+          "screenshots": []
+        }
+      ]
     },
     {
       "id": "bask",
@@ -93,7 +113,18 @@
       "mainImage": "/projects/bask/card-image.png",
       "technologies": ["React", "Tailwind CSS", "React Native", "Redux"],
       "liveUrl": "https://baskeg.com/",
-      "stars": "0"
+      "stars": "0",
+      "mobileApps": [
+        {
+          "name": "Mobile App",
+          "description": "Hotel management mobile application for guests and staff.",
+          "apkUrl": "https://drive.google.com/drive/folders/1DJqRh_Fnm7yzey5eWEq_VOEB9IasBwXj?usp=drive_link",
+          "playStoreUrl": "",
+          "appStoreUrl": "",
+          "demoVideoUrl": "https://drive.google.com/file/d/1LKF3IZLMAtqiQMB35L6JZqFwQbAd2SPc/view?usp=drive_link",
+          "screenshots": []
+        }
+      ]
     },
     {
       "id": "InCompass",
