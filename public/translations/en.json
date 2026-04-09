@@ -88,8 +88,8 @@
           "name": "User App",
           "description": "For users to explore and book marine services, yacht rentals, and tourism experiences.",
           "apkUrl": "",
-          "playStoreUrl": "",
-          "appStoreUrl": "",
+          "playStoreUrl": "https://play.google.com/store/apps/details?id=com.marinoz.user",
+          "appStoreUrl": "https://apps.apple.com/us/app/marinoz/id6761281830",
           "demoVideoUrl": "",
           "screenshots": []
         },
@@ -97,8 +97,8 @@
           "name": "Owner App",
           "description": "For service owners to manage their offerings, bookings, and business operations.",
           "apkUrl": "",
-          "playStoreUrl": "",
-          "appStoreUrl": "",
+          "playStoreUrl": "https://play.google.com/store/apps/details?id=com.marinoz.owner",
+          "appStoreUrl": "https://apps.apple.com/us/app/marinoz-owner/id6761278325",
           "demoVideoUrl": "",
           "screenshots": []
         }
@@ -174,7 +174,7 @@
         "TypeScript",
         "Zustand"
       ],
-      "liveUrl": "medanglobal.com",
+      "liveUrl": "https://medanglobal.com",
       "testUrl": "https://release-dev.d1atoojhtka94o.amplifyapp.com",
       "playStoreUrl": "https://play.google.com/store/apps/details?id=com.horse_riding",
       "appStoreUrl": "https://apps.apple.com/eg/app/medan-%D9%85%D9%8A%D8%AF%D8%A7%D9%86/id6738380859",
