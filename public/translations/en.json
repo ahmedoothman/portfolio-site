@@ -19,11 +19,30 @@
   },
   "experiences": [
     {
+      "title": "Software Engineer",
+      "company": "Mrkoon",
+      "href": "https://www.linkedin.com/company/mrkoon2030",
+      "startDate": "2/2026",
+      "endDate": "Present",
+      "description": "Working on mrkoon mobile app (React Native) and website and dashboards (NextJs & ReactJs)",
+      "logo": "/logos/mrkoon.jpeg",
+      "skills": [
+        "javascript",
+        "react",
+        "react native",
+        "next.js",
+        "redux",
+        "tailwind css",
+        "Rest API",
+        "React Query"
+      ]
+    },
+    {
       "title": "Software Developer",
       "company": "Addicta",
       "href": "https://www.linkedin.com/company/addicta",
       "startDate": "12/2024",
-      "endDate": "12/2025",
+      "endDate": "01/2026",
       "description": "Joined the MERN stack team as a React & React Native Developer",
       "logo": "/logos/addicta_logo.jpeg",
       "skills": [
@@ -105,6 +124,26 @@
       ]
     },
     {
+      "id": "medan-global",
+      "name": "Medan Global",
+      "framework": "next.js & react native",
+      "description": "Medan Global is a comprehensive equestrian competition management platform based in Saudi Arabia, designed to organize and manage various horse-related events and competitions. The platform includes both a web dashboard for administrators and a mobile application for participants and staff. It handles multiple types of competitions including horse racing, beauty competitions, auctions, and various equestrian events. The system provides complete staff management capabilities for photographers, horse riders, judges, and other event personnel. Features include event scheduling, participant registration, competition tracking, results management, and comprehensive reporting tools to ensure smooth execution of all equestrian activities.",
+      "shortDescription": "Medan Global is a comprehensive platform for organizing and managing horse competitions, events, and auctions in Saudi Arabia.",
+      "mainImage": "/projects/medan-global/medan-logo.png",
+      "technologies": [
+        "Next.js",
+        "React",
+        "React Native",
+        "Tailwind CSS",
+        "Ant Design",
+        "TypeScript",
+        "Zustand"
+      ],
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.horse_riding",
+      "appStoreUrl": "https://apps.apple.com/eg/app/medan-%D9%85%D9%8A%D8%AF%D8%A7%D9%86/id6738380859",
+      "stars": "0"
+    },
+    {
       "id": "bask",
       "name": "Bask Hospitality",
       "framework": "react native",
@@ -157,29 +196,6 @@
       "technologies": ["React", "React Native", "Redux"],
       "liveUrl": "https://incompassonline.com/",
       "playStoreUrl": "https://play.google.com/store/apps/details?id=com.incompassonline",
-      "stars": "0"
-    },
-    {
-      "id": "medan-global",
-      "name": "Medan Global",
-      "framework": "next.js",
-      "description": "Medan Global is a comprehensive equestrian competition management platform based in Saudi Arabia, designed to organize and manage various horse-related events and competitions. The platform includes both a web dashboard for administrators and a mobile application for participants and staff. It handles multiple types of competitions including horse racing, beauty competitions, auctions, and various equestrian events. The system provides complete staff management capabilities for photographers, horse riders, judges, and other event personnel. Features include event scheduling, participant registration, competition tracking, results management, and comprehensive reporting tools to ensure smooth execution of all equestrian activities.",
-      "shortDescription": "Medan Global is a comprehensive platform for organizing and managing horse competitions, events, and auctions in Saudi Arabia.",
-      "mainImage": "/projects/medan-global/card-image.png",
-      "technologies": [
-        "Next.js",
-        "React",
-        "Tailwind CSS",
-        "Ant Design",
-        "TypeScript",
-        "Zustand"
-      ],
-      "liveUrl": "https://medanglobal.com",
-      "testUrl": "https://release-dev.d1atoojhtka94o.amplifyapp.com",
-      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.horse_riding",
-      "appStoreUrl": "https://apps.apple.com/eg/app/medan-%D9%85%D9%8A%D8%AF%D8%A7%D9%86/id6738380859",
-      "user": "admin@example.com",
-      "password": "Master@123",
       "stars": "0"
     },
     {
@@ -249,6 +265,27 @@
       ],
       "behanceUrl": "https://www.behance.net/gallery/180429899/Student-Admission-App",
       "stars": "0"
+    },
+    {
+      "id": "rsh-meet",
+      "name": "RSH Meet",
+      "framework": "react native",
+      "shortDescription": "Official meeting platform for RealSoftHouse instructors and students, designed for online learning and internal communication.",
+      "description": "RSH Meet (RealSoftHouse Meet) is the official, dedicated meeting platform for RealSoftHouse instructors and students. Designed specifically for online learning and internal communication, it provides a reliable, secure environment for hosting and attending digital lectures. This app equips instructors with all the essential tools they need to manage their online classrooms effectively, ensuring a focused and interactive educational experience seamlessly from mobile devices.",
+      "mainImage": "/projects/rsh-meet/card-image.png",
+      "technologies": ["React Native", "Redux"],
+      "stars": "0",
+      "mobileApps": [
+        {
+          "name": "Mobile App",
+          "description": "The official meeting platform for RealSoftHouse instructors and students to host and attend digital lectures with classroom management tools.",
+          "apkUrl": "",
+          "playStoreUrl": "https://play.google.com/store/apps/details?id=com.meetrsh&hl=en",
+          "appStoreUrl": "https://apps.apple.com/us/app/rsh-meet/id6765725459",
+          "demoVideoUrl": "",
+          "screenshots": []
+        }
+      ]
     },
     {
       "id": "sleep-of-woodlands",
