@@ -95,10 +95,9 @@
     {
       "id": "marinoz",
       "name": "Marinoz",
-      "framework": "react native",
       "shortDescription": "Best Yacht Experience for you",
       "description": "Marinoz is a multi-platform service marketplace that includes a website, an owner dashboard, a user dashboard, and two mobile applications built with React Native (Owner App and User App).The platform allows service owners to create and manage marine and tourism-related services, while users can explore and book services such as yacht rentals, tours, events, water sports, accommodations, and custom experiences. Marinoz also offers e-commerce features, special packages, an in-app wallet, and a complaint/support system.The goal of the platform is to provide a complete, seamless experience for managing services and bookings across web and mobile.",
-      "mainImage": "/projects/marinoz/card-image.png",
+      "mainImage": "/projects/marinoz/card-image-2.png",
       "technologies": ["React", "Tailwind CSS", "React Native", "Redux"],
       "liveUrl": "https://beta.marinoz.com/en",
       "stars": "0",
@@ -126,10 +125,9 @@
     {
       "id": "medan-global",
       "name": "Medan Global",
-      "framework": "next.js & react native",
       "description": "Medan Global is a comprehensive equestrian competition management platform based in Saudi Arabia, designed to organize and manage various horse-related events and competitions. The platform includes both a web dashboard for administrators and a mobile application for participants and staff. It handles multiple types of competitions including horse racing, beauty competitions, auctions, and various equestrian events. The system provides complete staff management capabilities for photographers, horse riders, judges, and other event personnel. Features include event scheduling, participant registration, competition tracking, results management, and comprehensive reporting tools to ensure smooth execution of all equestrian activities.",
       "shortDescription": "Medan Global is a comprehensive platform for organizing and managing horse competitions, events, and auctions in Saudi Arabia.",
-      "mainImage": "/projects/medan-global/medan-logo.png",
+      "mainImage": "/projects/medan-global/app-preview.png",
       "technologies": [
         "Next.js",
         "React",
@@ -144,9 +142,28 @@
       "stars": "0"
     },
     {
+      "id": "rsh-meet",
+      "name": "RSH Meet",
+      "shortDescription": "Official meeting platform for RealSoftHouse instructors and students, designed for online learning and internal communication.",
+      "description": "RSH Meet (RealSoftHouse Meet) is the official, dedicated meeting platform for RealSoftHouse instructors and students. Designed specifically for online learning and internal communication, it provides a reliable, secure environment for hosting and attending digital lectures. This app equips instructors with all the essential tools they need to manage their online classrooms effectively, ensuring a focused and interactive educational experience seamlessly from mobile devices.",
+      "mainImage": "/projects/rsh-meet/logo.png",
+      "technologies": ["React Native", "Redux"],
+      "stars": "0",
+      "mobileApps": [
+        {
+          "name": "Mobile App",
+          "description": "The official meeting platform for RealSoftHouse instructors and students to host and attend digital lectures with classroom management tools.",
+          "apkUrl": "",
+          "playStoreUrl": "https://play.google.com/store/apps/details?id=com.meetrsh&hl=en",
+          "appStoreUrl": "https://apps.apple.com/us/app/rsh-meet/id6765725459",
+          "demoVideoUrl": "",
+          "screenshots": []
+        }
+      ]
+    },
+    {
       "id": "bask",
       "name": "Bask Hospitality",
-      "framework": "react native",
       "shortDescription": "Bask is a comprehensive vacation rental platform connecting property owners with travelers seeking seaside accommodations.",
       "description": "Bask is a multi-platform vacation rental marketplace that specializes in seaside properties for summer vacations. Property owners can list their units through an intuitive owner dashboard, where they submit detailed property information and amenities. The admin dashboard allows administrators to review and approve property listings before they become visible on the platform. Users can explore available properties through a responsive website and mobile application, utilizing advanced filtering options to find their perfect vacation spot. The platform includes comprehensive booking management, secure payment processing with multiple payment methods, user profile management, FAQ sections, push notifications, admin chat support, refund request handling, and account management features. The system ensures a seamless experience across web and mobile platforms for both property owners and vacation seekers.",
       "mainImage": "/projects/bask/card-image.png",
@@ -168,7 +185,6 @@
     {
       "id": "wasel",
       "name": "Wasel",
-      "framework": "react native",
       "shortDescription": "Wasel is a delivery platform connecting shippers with drivers for seamless shipment transportation.",
       "description": "Wasel is a mobile-only delivery platform that connects individuals needing to ship packages with available drivers. The app features two distinct user flows: one for shippers who create delivery requests by listing their shipments with pickup and delivery details, and another for drivers who browse available requests and accept deliveries they can fulfill. Key features include user/driver role switching, comprehensive dashboards for tracking shipments and earnings, profile management, driver rating and review system, secure account deletion, and real-time notifications. The platform ensures efficient logistics coordination between shippers and drivers through a streamlined mobile interface.",
       "mainImage": "/projects/wasel/card-image.png",
@@ -189,7 +205,6 @@
     {
       "id": "InCompass",
       "name": "Incompass",
-      "framework": "react native",
       "shortDescription": "InCompass is a real estate platform where organizations showcase and market new property developments in Egypt.",
       "description": "InCompass is a comprehensive real estate platform designed for property developers and organizations to showcase their new construction projects across Egypt. The platform allows organizations to list detailed information about their property units, including specifications, pricing, locations, and project timelines. Users can browse through various new developments, compare different properties, and request quotes directly from developers. The platform serves as a bridge between property developers and potential buyers, providing a streamlined way to discover and inquire about new construction projects in the Egyptian real estate market.",
       "mainImage": "/projects/incompass/card-image.png",
@@ -201,7 +216,6 @@
     {
       "id": "helwan-university-ebook-platform",
       "name": "Helwan University: eBook platform ",
-      "framework": "react",
       "description": "The Helwan University eBook platform is a comprehensive digital learning resource system designed to serve the entire university community. The platform accommodates five distinct user roles: students, professors, publishing authority, college administrators, and super administrators. Students can access and view course materials and eBooks. Professors have the ability to upload educational content and materials. The publishing authority reviews and approves content submissions. College administrators oversee departmental content management, while super administrators have full system control over all platform operations. The approval workflow ensures content quality through multi-level review processes before materials are published to students, creating a structured and secure academic resource distribution system.",
       "shortDescription": "Comprehensive eBook platform for Helwan University serving students, professors, and administrators with multi-role content management and approval workflows.",
       "mainImage": "/projects/ebook-platform/card-image.png",
@@ -219,7 +233,6 @@
       "id": "helwan-university-student-admission",
       "name": "Helwan University: Student Admission",
       "description": "The Helwan University Student Admission application is a comprehensive digital admission system designed to streamline the enrollment process for new students, successfully accommodating over 35,000 users. For students, the platform provides essential features including downloading the student charter, taking admission quizzes, completing personal and academic information, and automatically generating printable admission papers pre-filled with their submitted data. Administrative users have access to powerful management tools, allowing admins and super admins to view student data organized by faculty and download comprehensive reports. The system ensures efficient data collection, verification, and management throughout the admission workflow, supporting the university's large-scale enrollment process with a user-friendly interface and robust administrative controls.",
-      "framework": "react",
       "shortDescription": "Comprehensive student admission system for Helwan University handling enrollment for over 35,000 students with automated document generation and administrative reporting.",
       "mainImage": "/projects/student-app/card-image.png",
       "technologies": [
@@ -236,7 +249,6 @@
       "id": "helwan-university-student-interview",
       "name": "Helwan University: Student Interview",
       "description": "The Helwan University Student Interview application is designed to streamline the interview scheduling process for university admissions. Students can register their personal and academic data through the platform and schedule interview appointments at their convenience. Administrators have comprehensive control over the interview process, including the ability to schedule and organize student interviews efficiently. The system also provides administrative tools for downloading student data for review and record-keeping purposes. This application serves as a crucial component of the university's admission workflow, ensuring organized data collection and efficient interview management for prospective students.",
-      "framework": "react",
       "shortDescription": "Interview scheduling and data collection system for Helwan University admissions, enabling students to register and book appointments while providing admins with scheduling and data management tools.",
       "mainImage": "/projects/interview-app/card-image.png",
       "technologies": [
@@ -253,7 +265,6 @@
       "id": "helwan-university-student-id-card",
       "description": "The Helwan University Student ID Card Dashboard is a comprehensive system for managing student identification cards. Students can update their personal information and upload profile pictures through an intuitive interface. Administrators review submitted images and information to ensure compliance with university standards before approving them for ID card printing. The dashboard provides staff with tools to view all student submissions, verify data accuracy, and manage the approval workflow. Once approved, the system facilitates the printing process by providing access to verified student data and images, ensuring efficient production of official university ID cards.",
       "name": "Helwan University: Student ID Card Dashboard",
-      "framework": "react",
       "shortDescription": "Student ID card management system allowing students to update information and upload photos, with administrative approval workflow for printing official university ID cards.",
       "mainImage": "/projects/student-id-card/card-image.png",
       "technologies": [
@@ -267,30 +278,8 @@
       "stars": "0"
     },
     {
-      "id": "rsh-meet",
-      "name": "RSH Meet",
-      "framework": "react native",
-      "shortDescription": "Official meeting platform for RealSoftHouse instructors and students, designed for online learning and internal communication.",
-      "description": "RSH Meet (RealSoftHouse Meet) is the official, dedicated meeting platform for RealSoftHouse instructors and students. Designed specifically for online learning and internal communication, it provides a reliable, secure environment for hosting and attending digital lectures. This app equips instructors with all the essential tools they need to manage their online classrooms effectively, ensuring a focused and interactive educational experience seamlessly from mobile devices.",
-      "mainImage": "/projects/rsh-meet/card-image.png",
-      "technologies": ["React Native", "Redux"],
-      "stars": "0",
-      "mobileApps": [
-        {
-          "name": "Mobile App",
-          "description": "The official meeting platform for RealSoftHouse instructors and students to host and attend digital lectures with classroom management tools.",
-          "apkUrl": "",
-          "playStoreUrl": "https://play.google.com/store/apps/details?id=com.meetrsh&hl=en",
-          "appStoreUrl": "https://apps.apple.com/us/app/rsh-meet/id6765725459",
-          "demoVideoUrl": "",
-          "screenshots": []
-        }
-      ]
-    },
-    {
       "id": "sleep-of-woodlands",
       "name": "Sleep of Woodlands",
-      "framework": "html/css/javascript",
       "shortDescription": "website for Sleep of Woodlands clinic providing sleep disorder treatment services in the USA.",
       "description": "Sleep of Woodlands is a website for a medical clinic specializing in sleep disorders and treatment services located in the United States. The website serves as an informational hub for patients seeking sleep-related healthcare services, providing details about the clinic's services, treatments, and contact information.",
       "mainImage": "/projects/sleep-of-woodlands/card-image.png",

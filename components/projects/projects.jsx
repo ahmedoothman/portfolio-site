@@ -15,7 +15,6 @@ const Projects = (props) => {
               id={project.id}
               name={project.name}
               stars={project.stars}
-              framework={project.framework}
               shortDescription={project.shortDescription}
               mainImage={project.mainImage}
             />

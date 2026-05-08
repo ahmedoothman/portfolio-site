@@ -7,7 +7,7 @@ import { notFound } from 'next/navigation';
 export default async function ProjectDetail({ params }) {
   const file = await fs.readFile(
     process.cwd() + '/public/translations/en.json',
-    'utf-8'
+    'utf-8',
   );
   const data = JSON.parse(file);
 
@@ -60,9 +60,6 @@ export default async function ProjectDetail({ params }) {
                 />
               </svg>
               <span className='ml-1 text-sm'>{project.stars}</span>
-            </div>
-            <div className='text-sm font-medium tracking-widest uppercase text-primary-500'>
-              {project.framework}
             </div>
           </div>
           <h1 className='text-4xl lg:text-5xl font-bold mb-4'>
@@ -497,7 +494,7 @@ export default async function ProjectDetail({ params }) {
 export async function generateStaticParams() {
   const file = await fs.readFile(
     process.cwd() + '/public/translations/en.json',
-    'utf-8'
+    'utf-8',
   );
   const data = JSON.parse(file);
 

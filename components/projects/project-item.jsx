@@ -36,7 +36,7 @@ function ProjectItem(props) {
         )}
       </div>
       <div className='p-5'>
-        <div className='text-surface-600 mb-4 flex flex-row items-center justify-between'>
+        <div className='text-surface-600 mb-4 flex flex-row items-center'>
           <div className='flex flex-row items-center'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
@@ -53,9 +53,6 @@ function ProjectItem(props) {
               />
             </svg>
             <span className='ml-1 text-xs'>{props.stars}</span>
-          </div>
-          <div className='text-xs font-medium tracking-widest uppercase'>
-            {props.framework}
           </div>
         </div>
         <h1 className='mb-4 text-xl subpixel-antialiased'>{props.name}</h1>
