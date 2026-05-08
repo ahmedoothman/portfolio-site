@@ -70,13 +70,23 @@ export default async function ProjectDetail({ params }) {
         {/* Project Image */}
         <div className='relative w-full h-64 lg:h-96 mb-8 rounded-lg overflow-hidden bg-surface-400'>
           {project.mainImage ? (
-            <Image
-              src={project.mainImage}
-              alt={project.name}
-              fill
-              className='object-cover'
-              sizes='(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 70vw'
-            />
+            <>
+              <Image
+                src={project.mainImage}
+                alt=''
+                fill
+                className='object-cover blur-md scale-110'
+                sizes='(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 70vw'
+                aria-hidden='true'
+              />
+              <Image
+                src={project.mainImage}
+                alt={project.name}
+                fill
+                className='object-contain relative z-10'
+                sizes='(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 70vw'
+              />
+            </>
           ) : (
             <div className='w-full h-full flex items-center justify-center text-surface-600'>
               <svg
