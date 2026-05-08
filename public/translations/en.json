@@ -93,6 +93,26 @@
   ],
   "projects": [
     {
+      "id": "mrkoon",
+      "name": "Mrkoon",
+      "shortDescription": "A digital platform connecting scrap traders with companies that have surplus materials, production waste, or industrial scrap.",
+      "description": "Mrkoon is a digital platform in the region connecting scrap traders with companies that have surplus materials, production waste, or industrial scrap. Whether you're a factory, hotel, mall, or school, you can list your scrap for sale either directly or via auction and instantly reach thousands of verified buyers. The platform streamlines the scrap trading process by providing a trusted marketplace where sellers can maximize returns on surplus materials and buyers can easily source the materials they need.",
+      "mainImage": "/projects/mrkoon/card-image.png",
+      "technologies": [
+        "React",
+        "React Native",
+        "Next.js",
+        "Redux",
+        "Tailwind CSS",
+        "Rest API",
+        "React Query"
+      ],
+      "liveUrl": "https://mrkoonapp.com/",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.masafa.mrk.app&hl=en",
+      "appStoreUrl": "https://apps.apple.com/us/app/mrkoon/id6751772934",
+      "stars": "0"
+    },
+    {
       "id": "marinoz",
       "name": "Marinoz",
       "shortDescription": "Best Yacht Experience for you",
@@ -101,6 +121,8 @@
       "technologies": ["React", "Tailwind CSS", "React Native", "Redux"],
       "liveUrl": "https://beta.marinoz.com/en",
       "stars": "0",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.marinoz.user",
+      "appStoreUrl": "https://apps.apple.com/us/app/marinoz/id6761281830",
       "mobileApps": [
         {
           "name": "User App",
@@ -146,9 +168,11 @@
       "name": "RSH Meet",
       "shortDescription": "Official meeting platform for RealSoftHouse instructors and students, designed for online learning and internal communication.",
       "description": "RSH Meet (RealSoftHouse Meet) is the official, dedicated meeting platform for RealSoftHouse instructors and students. Designed specifically for online learning and internal communication, it provides a reliable, secure environment for hosting and attending digital lectures. This app equips instructors with all the essential tools they need to manage their online classrooms effectively, ensuring a focused and interactive educational experience seamlessly from mobile devices.",
-      "mainImage": "/projects/rsh-meet/logo.png",
+      "mainImage": "/projects/rsh-meet/app-preview.png",
       "technologies": ["React Native", "Redux"],
       "stars": "0",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.meetrsh&hl=en",
+      "appStoreUrl": "https://apps.apple.com/us/app/rsh-meet/id6765725459",
       "mobileApps": [
         {
           "name": "Mobile App",
